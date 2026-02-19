@@ -16,6 +16,10 @@ class Post extends Model
         'meta_description', 'meta_keywords', 'views_count', 'published_at'
     ];
 
+    protected $casts = [
+        'published_at' => 'datetime',
+    ];
+
     const STATUS_DRAFT = 1;
     const STATUS_PENDING = 2;
     const STATUS_PUBLISHED = 3;

@@ -20,7 +20,7 @@
     <nav class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur-md">
         <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
             <a href="/" class="text-2xl font-extrabold tracking-tighter text-blue-600">
-                Warta<span class="text-gray-900">Warga.</span>
+                Warta<span class="text-gray-900">Kita.</span>
             </a>
             <div class="flex items-center gap-6">
                 <a href="/admin/login" class="text-sm font-semibold text-gray-600 hover:text-blue-600">Tulis Berita</a>
@@ -37,7 +37,7 @@
 
     <footer class="border-t border-gray-200 bg-white py-12 mt-20">
         <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-            <p class="text-gray-500 text-sm">© 2026 WartaWarga. Proyek Citizen Journalism berbasis Laravel 12.</p>
+            <p class="text-gray-500 text-sm">© 2026 WartaKita. Citizen Journalism by RCH Techno</p>
         </div>
     </footer>
 

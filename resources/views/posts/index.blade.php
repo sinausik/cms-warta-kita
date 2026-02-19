@@ -17,7 +17,7 @@
         <div class="max-w-xl">
             <div class="mt-6 flex items-center gap-x-4 text-xs">
                 <time datetime="{{ $post->published_at }}" class="text-gray-500">
-                    {{ $post->published_at }}
+                    {{ $post->published_at->isoFormat('D MMMM Y') }}
                 </time>
                 <span class="relative z-10 rounded-full bg-blue-50 px-3 py-1.5 font-medium text-blue-600">
                     {{ $post->category->name }}
