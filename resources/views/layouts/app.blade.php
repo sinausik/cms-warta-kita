@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'WartaWarga - Portal Berita Citizen Journalist')</title>
-    
+    <link rel="icon" href="{{ asset('img/favicon_io/favicon.ico') }}" type="image/x-icon">
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
     
