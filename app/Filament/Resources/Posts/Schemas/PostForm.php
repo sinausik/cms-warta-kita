@@ -43,6 +43,7 @@ class PostForm
                                 FileUpload::make('cover_image')
                                     ->image()
                                     ->directory('posts-covers')
+                                    ->visibility('public')
                                     ->columnSpanFull(),
 
                                 RichEditor::make('content')
